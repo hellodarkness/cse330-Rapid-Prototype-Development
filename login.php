@@ -106,5 +106,10 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         <p>Don't have an account? <a href="register.php">Sign up now</a>.</p>
     </form>
 </div>
+
+<div class="row center">
+    <a href="index.html" id="download-button" class="btn-large waves-effect waves-light orange">Main Page</a>
+</div>
+
 </body>
 </html>

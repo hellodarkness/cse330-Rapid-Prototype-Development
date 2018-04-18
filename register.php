@@ -131,5 +131,8 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         <p>Already have an account? <a href="login.php">Login here</a>.</p>
     </form>
 </div>
+<div class="row center">
+    <a href="index.html" id="download-button" class="btn-large waves-effect waves-light orange">Main Page</a>
+</div>
 </body>
 </html>

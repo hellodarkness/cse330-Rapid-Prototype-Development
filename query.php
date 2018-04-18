@@ -36,3 +36,12 @@ while($row = mysqli_fetch_array($result))
 $conn->close(); 
 
 ?>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<div class="row center">
+    <a href="index.html" id="download-button" class="btn-large waves-effect waves-light orange">Main Page</a>
+</div>
+
+</html>
