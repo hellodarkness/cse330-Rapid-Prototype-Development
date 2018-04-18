@@ -35,7 +35,7 @@ if(!isset($_SESSION['username']) || empty($_SESSION['username'])){
 </form>
 
 <div class="row center">
-    <a href="index.html" id="download-button" class="btn-large waves-effect waves-light orange">Main Page</a>
+    <a href="index.html">Main Page</a>
 </div>
 
 <p><a href="logout.php" class="btn btn-danger">Sign Out of Your Account</a></p>

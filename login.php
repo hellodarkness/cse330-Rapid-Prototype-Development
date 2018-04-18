@@ -108,7 +108,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 </div>
 
 <div class="row center">
-    <a href="index.html" id="download-button" class="btn-large waves-effect waves-light orange">Main Page</a>
+    <a href="index.html" >Main Page</a>
 </div>
 
 </body>
