@@ -38,10 +38,18 @@
     </div>
   </div>
 
-  <div class="row center">
-      <a href="share_file.php" id="download-button" >Go to file share system</a>
-  </div>
+  <form enctype="multipart/form-data" action="share_file.php" method="POST">
+    <p>
+      <input type="hidden" name="MAX_FILE_SIZE" value="20000000" />
+      <label for="uploadfile_input">Choose a file to upload:</label> <input name="uploadedfile" type="file" id="uploadfile_input" />
+    </p>
+    <p>
+      <input type="submit" value="Upload File" />
+    </p>
+  </form>
 
+  <br><br>
+  <br><br>
 
   <form action="query.php" method="post">
       Please enter a chromosome number(1-23): <input type="text" name="fname">
