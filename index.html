@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -37,6 +38,11 @@
 
     </div>
   </div>
+
+  <?php
+header("Location: login.php");
+exit;   // we call exit here so that the script will stop executing before the connection is broken
+?>
 
   <form enctype="multipart/form-data" action="share_file.php" method="POST">
     <p>
