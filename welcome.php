@@ -24,15 +24,12 @@ if(!isset($_SESSION['username']) || empty($_SESSION['username'])){
     <h1>Hi, <b><?php echo htmlspecialchars($_SESSION['username']); ?></b>. Welcome to our site.</h1>
 </div>
 
-<form enctype="multipart/form-data" action="share_file.php" method="POST">
-    <p>
-        <input type="hidden" name="MAX_FILE_SIZE" value="20000000" />
-        <label for="uploadfile_input">Choose a file to upload:</label> <input name="uploadedfile" type="file" id="uploadfile_input" />
-    </p>
-    <p>
-        <input type="submit" value="Upload File" />
-    </p>
+<form action="upload.php" method="post" enctype="multipart/form-data">
+    Select image to upload:
+    <input type="file" name="fileToUpload" id="fileToUpload">
+    <input type="submit" value="Upload Image" name="submit">
 </form>
+
 
 <div class="row center">
     <a href="index.html">Main Page</a>
